@@ -1,0 +1,14 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.3.0
+  NewCops: enable
+
+Metrics/BlockLength:
+  Max: 35
+
+Style/Documentation:
+  Enabled: false
